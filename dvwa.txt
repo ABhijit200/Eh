@@ -1,0 +1,16 @@
+1) Download DWA from github
+2) Extrat zip file -> rename it to dvwa
+3) copy the bvwa folder and paste it to C://wamp64/www
+4) open dvwa-> config
+5) rename the file to config.php
+6) open th efile with notepad -> remove the password
+7) open local host -> localhost/dvwa
+8)open new tab-> localhost/phpmyadmin/index.php->
+usetname->root
+password->blank
+go->back
+9)localhost/dvwa->login->username->admin
+password->password
+10)DVWA security -> low ->submit
+11)sql injection ->code ->submit
+code ->1,1,1, a="or", 3=3
